@@ -1,0 +1,77 @@
+/*GENERIC CLASSES FOR TBODY CELLS*/
+.table-spacement{
+    margin-top: 15mm;
+}
+
+.center{
+    align:center;
+}
+
+.cell-25
+{
+   width:25%;
+}
+
+.cell-50
+{
+    width:50%;
+}
+
+.cell-75
+{
+    width:75%;
+}
+
+.bold{
+    font-weight: bold;
+}
+.cell-100
+{
+    width:100%;
+}
+
+
+th {
+        font-weight: bold;
+        text-align:left;
+    }
+
+
+table{width:100%;}  
+
+table tr{
+    border-bottom:solid 2mm #130647 !important;
+}
+
+table td{
+    text-align:left; padding:2mm 1mm 1.4mm 0mm;
+    font-size: 2.78mm;
+      }
+
+
+/*Classes for img*/
+td.logo-wrapper-circle{
+position: relative;
+left: 5%;
+border:1mm solid #130647;
+width: 27mm;
+height: 22mm;
+border-radius: 17mm;
+background: white;
+overflow: hidden;
+-webkit-filter:50%;
+-moz-filter: 50%;
+}
+
+td.logo-wrapper-circle img{
+    position: relative;
+    width: 23mm;
+}
+
+/*Classes for background tr*/
+.light-blue-row{
+	background:#e0e3e8;
+}
+.light-red-row{
+	background: #eacfcf;
+}
